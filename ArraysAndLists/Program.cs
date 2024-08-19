@@ -15,12 +15,12 @@ namespace ArraysAndLists
             /* Create a list of type int
              * Name the list "evens"
              */
-            var evens = new List<int>();
+            List<int> evens = new List<int>();
 
             /* Create another list of type int
              * Name the list "odds"
              */
-            var odds = new List<int>();
+            List<int> odds = new List<int>();
 
             /* Using either a foreach or for loop,
              * iterate through the array you populated with 10 numbers.
@@ -54,9 +54,9 @@ namespace ArraysAndLists
             /* Using a for loop,
              * display the numbers in your "odds" list
              */
-            foreach (var odd in odds)
+            for (int i = 0; i < odds.Count; i++)
             {
-             Console.WriteLine(odd);
+             Console.WriteLine(odds[i]);
             }
         }
     }
